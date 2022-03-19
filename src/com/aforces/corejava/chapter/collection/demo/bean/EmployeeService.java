@@ -16,9 +16,6 @@ public class EmployeeService {
         Employee e5 = new Employee(5,"Jevan Adhikari","COl",EmployeeConstant.US,190000,EmployeeConstant.MALE,EmployeeConstant.NON_IT);
         Employee e6 = new Employee(6,"Monica","texes",EmployeeConstant.US,200000,EmployeeConstant.FEMALE,EmployeeConstant.IT);
 
-
-
-
         employees.add(e1);
         employees.add(e2);
         employees.add(e3);

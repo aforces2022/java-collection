@@ -84,6 +84,29 @@ public class EmployeeMain {
         System.out.println("avg salary of all emp is "+(sum/count));
 
 
+        String s1 = "hi everyone good morning happy holi";
+
+        String[] words = s1.split(" ");
+        System.out.println(words.length);
+
+        s1= s1.replace("h","H");
+        System.out.println(s1);
+
+
+        List<Employee> femaleEmp = new ArrayList<>();
+        List<String> femalename = new ArrayList<>();
+
+        for (Employee e:employees) {
+            if(e != null && EmployeeConstant.FEMALE.equals(e.getGender())){
+                femaleEmp.add(e);
+                femalename.add(e.getName());
+            }
+        }
+
+        System.out.println(femaleEmp);
+
+
+
 
     }
 
