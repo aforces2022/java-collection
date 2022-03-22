@@ -59,6 +59,14 @@ public class Main {
 
 
         //remove
+        System.out.println("hello");
+        System.out.println("world");
+        System.out.println("Edited file");
+        int a = 30;
+        int b = 20;
+        int c = a + b;
+        System.out.println(c);
+
 
     }
 
@@ -78,5 +86,6 @@ public class Main {
         list.remove( 2);
 
         return list;
+
     }
 }
